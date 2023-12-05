@@ -92,13 +92,13 @@ const  Contact = () => {
           />
         </label>
         <label htmlFor="" className='flex flex-col'>
-          <span className='text-white font-medium mb-4'>Your Message</span>
+          <span className='text-white font-medium mb-4'>Please enter your email ID and your message here</span>
           <textarea
           row='7' 
           name='message'
           value={form.message}
           onChange={handleChange}
-          placeholder="Your message"
+          placeholder="Your message and your email"
           className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' 
           />
         </label>

@@ -5,7 +5,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
 
-const FeedbackCard =({index , testimonial ,name , desgination , company , image}) =>(
+const FeedbackCard =({index , testimonial ,name , designation , company , image}) =>(
   <motion.div
     variants={fadeIn("", "spring" , index*0.5 ,0.75)}
     className="bg-black-200 p-10 rounded-3xl xs-w-[320px] w-full"
@@ -20,7 +20,7 @@ const FeedbackCard =({index , testimonial ,name , desgination , company , image}
           <span className="blue-text-gradient">@</span>{name}
         </p>
         <p className="mt-1 text-secondary text-[12px]">
-          {desgination} of {company}
+          {designation} of {company}
         </p>
       </div>
     </div>
