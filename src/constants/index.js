@@ -114,7 +114,7 @@ import {
   
   const experiences = [
     {
-      title: "Developer",
+      title: "Web Developer",
       company_name: "Capgemini Internal",
       icon: capgemini,
       iconBg: "#383E56",
@@ -122,8 +122,8 @@ import {
       points: [
         "Developing and maintaining web applications using HTML , CSS ,js , php , apache tomcat and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "A functional prototype was built with deployment yet to be done",
-        "The project was stalled due to unforeseen circumstances"
+        "A functional prototype was built with deployment yet to be done , The project was stalled due to unforeseen circumstances",
+        "This is where my love and passion for web development began, this also sparked my curiosity"
         ,
       ],
     },
