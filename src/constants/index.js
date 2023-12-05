@@ -4,7 +4,7 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    aws,
     html,
     css,
     reactjs,
@@ -13,14 +13,14 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
+    informatica,
+    sql,
     capgemini,
     GEAerospace,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    IFS,
   } from "../assets";
   
   export const navLinks = [
@@ -71,10 +71,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -95,20 +91,24 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "IFS",
+      icon: IFS,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "informatica",
+      icon: informatica,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Oracle sql",
+      icon: sql,
+    },
+    {
+      name: "AWS",
+      icon: aws,
     },
   ];
   
