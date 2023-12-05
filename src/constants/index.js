@@ -15,10 +15,8 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    capgemini,
+    GEAerospace,
     carrent,
     jobit,
     tripguide,
@@ -116,84 +114,53 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Developer",
+      company_name: "Capgemini Internal",
+      icon: capgemini,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2021 - November 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using HTML , CSS ,js , php , apache tomcat and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A functional prototype was built with deployment yet to be done",
+        "The project was stalled due to unforeseen circumstances"
+        ,
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Technical Consultant",
+      company_name: "GE Aerospace",
+      icon: GEAerospace,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021 - Ongoing",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contracted from Capgemini to GE , to handle, maintain and enhance their military applications",
+        "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
+        "Working with technologies including Oracle SQL , ETL (informatica) , IFS App 8 , Unix , Service Now , github , git , SOAP API  ",
+        "Maintaining and Enhancing the technologies used in the web App",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+  
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "I wanted to send a note of appreciation for all your extra efforts the pat few weeks. I know the team has encountered serveral roadblocks, I appreciate your determination and collaboration in resolving the issues. Thank you for also working during holiday to ensure the process is complete",
+      name: "Kieu Nguyen",
+      designation: "Senior Director",
+      company: "GE Aerospace",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I'm writing to recognize the good work Saptarshi(Rishi) is doing for the team. I just need to you know we appreciate his efforts in helping other team members. He brings great technical skills and understanding of the GE environment. In addition , always meets or exceeds expectations. I'm glad to have Saptarshi working with us . I wanted to let everyone know his work is greatly appreciated",
+      name: "Neha Suman",
+      designation: "Staff Technical product manager",
+      company: "GE Aerospace",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    
   ];
   
   const projects = [
