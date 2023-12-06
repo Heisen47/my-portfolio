@@ -89,7 +89,7 @@ const Works = () => {
 
       <div className="">
         <div className={`${styles.sectionSubText} text-center mt-10`}>
-          Projects from my Early days.
+          Projects from <span className='text-[#915EFF]'>my Early days.</span>
         </div>
         <div className="mt-20 flex flex-wrap gap-7">
           {BeginnerProjects.map((project, index) => (
@@ -97,7 +97,7 @@ const Works = () => {
           ))}
         </div>
         <div className={`${styles.sectionSubText} text-center mt-10`}>
-          Projects that I am working on right now.
+          Projects that I am <span className='text-[#915EFF]'>working on right now.</span>
         </div>
         <div className="mt-20 flex flex-wrap gap-7">
           {WorkingOnProjects.map((project, index) => (
@@ -105,7 +105,7 @@ const Works = () => {
           ))}
         </div>
         <div className={`${styles.sectionSubText} text-center mt-10`}>
-          Projects that I am curious about and plan to do.
+          Projects that I am <span className='text-[#915EFF]'>curious about and plan to do.</span>
         </div>
         <div className="mt-20 flex flex-wrap gap-7">
           {PlanToWorkOnProjects.map((project, index) => (
