@@ -69,7 +69,7 @@ const  Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
       <form ref={formRef} onSubmit={handleSubmit} 
       className='mt-12 flex flex-col gap-8'>
-        <label htmlFor="" className='flex flex-col'>
+        <label htmlFor="name" className='flex flex-col'>
           <span className='text-white font-medium mb-4'>Your Name</span>
           <input 
           type="text" 
@@ -78,9 +78,10 @@ const  Contact = () => {
           onChange={handleChange}
           placeholder="What's your name?"
           className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' 
+          autocomplete="given-name"
           />
         </label>
-        <label htmlFor="" className='flex flex-col'>
+        <label htmlFor="email" className='flex flex-col'>
           <span className='text-white font-medium mb-4'>Your Email</span>
           <input 
           type="email" 
@@ -88,10 +89,11 @@ const  Contact = () => {
           value={form.email}
           onChange={handleChange}
           placeholder="What's your email?"
-          className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' 
+          className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+          autocomplete="off" 
           />
         </label>
-        <label htmlFor="" className='flex flex-col'>
+        <label htmlFor="message" className='flex flex-col'>
           <span className='text-white font-medium mb-4'>Please enter your email ID and your message here</span>
           <textarea
           row='7' 
@@ -100,6 +102,7 @@ const  Contact = () => {
           onChange={handleChange}
           placeholder="Your message and your email"
           className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' 
+          autocomplete="off"
           />
         </label>
 
