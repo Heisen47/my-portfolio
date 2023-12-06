@@ -21,6 +21,11 @@ import {
     jobit,
     tripguide,
     IFS,
+    ticTacToe,
+    newsApp,
+    spotify,
+    weather,
+    memoryCard
   } from "../assets";
   
   export const navLinks = [
@@ -163,7 +168,108 @@ import {
     
   ];
   
-  const projects = [
+  const BeginnerProjects = [
+    {
+      name: "Tic Tac Toe",
+      description:
+        "Web-based application that allows two users to play the famous game of tic-tac-toe and the winner gets selected and the looser will be sad for a while until the next game.",
+      tags: [
+        {
+          name: "vanilla JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ticTacToe,
+      source_code_link: "https://github.com/Heisen47/Tic-tac-toe",
+    },
+    {
+      name: "News App",
+      description:
+        "Web application that enables users to fetch the latest news, view the articles, and categorically do a infinite scroll with the smooth react experience.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: newsApp,
+      source_code_link: "https://github.com/Heisen47/NewsApp",
+    },
+    {
+      name: "A Music App",
+      description:
+        "A music app heavily inspired by spotify but not as smooth nor as big of a music library as spotify. This is strictly a front end app with no db connections with a few songs/musics present in it.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vanilla JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: spotify,
+      source_code_link: "https://github.com/Heisen47/Music-App",
+    },
+  ];
+  const WorkingOnProjects = [
+    {
+      name: "React Weather App",
+      description:
+        "A interactive and functional weather app which will fetch weather information and has search suggestions along with the names of places and weather forecast of it along with both metric and imperial units",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "WeatherAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weather,
+      source_code_link: "https://github.com/Heisen47/react-weather-app",
+    },
+    {
+      name: "React Memory Card Game",
+      description:
+        "This will be a fun memory card game based on react components which will have a scorecard ,count the score until game ends",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: memoryCard,
+      source_code_link: "https://github.com/",
+    },
+  ];
+  const PlanToWorkOnProjects = [
     {
       name: "Car Rent",
       description:
@@ -229,4 +335,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, BeginnerProjects , WorkingOnProjects , PlanToWorkOnProjects };
