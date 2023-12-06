@@ -137,7 +137,7 @@ import {
       company_name: "GE Aerospace",
       icon: GEAerospace,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Ongoing",
+      date: "Jan 2022 - Ongoing",
       points: [
         "Contracted from Capgemini to GE , to handle, maintain and enhance their military applications",
         "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
