@@ -21,11 +21,12 @@ import {
     jobit,
     tripguide,
     IFS,
-    ticTacToe,
+    portfolio,
     newsApp,
-    spotify,
+    chatapp,
     weather,
-    memoryCard
+    memoryCard,
+    video
   } from "../assets";
   
   export const navLinks = [
@@ -53,7 +54,7 @@ import {
       icon: mobile,
     },
     {
-      title: "learning Backend Developer",
+      title: "Backend Developer",
       icon: backend,
     },
     {
@@ -170,25 +171,25 @@ import {
   
   const BeginnerProjects = [
     {
-      name: "Tic Tac Toe",
+      name: "A Portfolio website",
       description:
-        "Web-based application that allows two users to play the famous game of tic-tac-toe and the winner gets selected and the looser will be sad for a while until the next game.",
+        "Using React , Three.js ,Email.js  made a complete single page application for being my portfolio and repository of all my works till date",
       tags: [
         {
-          name: "vanilla JS",
+          name: "React JS",
           color: "blue-text-gradient",
         },
         {
-          name: "HTML",
+          name: "Three JS",
           color: "green-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: ticTacToe,
-      source_code_link: "https://github.com/Heisen47/Tic-tac-toe",
+      image: portfolio,
+      source_code_link: "https://github.com/Heisen47/3d_portfolio",
     },
     {
       name: "News App",
@@ -212,39 +213,39 @@ import {
       source_code_link: "https://github.com/Heisen47/NewsApp",
     },
     {
-      name: "A Music App",
+      name: "Realtime Chat App",
       description:
-        "A music app heavily inspired by spotify but not as smooth nor as big of a music library as spotify. This is strictly a front end app with no db connections with a few songs/musics present in it.",
+        "A realtime chat app built with react , firebase authentication and firestore a NO-SQL db which can give realtime result.",
       tags: [
         {
-          name: "HTML",
+          name: "FIrebase",
           color: "blue-text-gradient",
         },
         {
-          name: "Vanilla JS",
+          name: "React JS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: spotify,
-      source_code_link: "https://github.com/Heisen47/Music-App",
+      image: chatapp,
+      source_code_link: "https://github.com/Heisen47/ChatApp-React",
     },
   ];
   const WorkingOnProjects = [
     {
-      name: "React Weather App",
+      name: "React Video Chat App",
       description:
-        "A interactive and functional weather app which will fetch weather information and has search suggestions along with the names of places and weather forecast of it along with both metric and imperial units",
+        "A interactive and functional video chat app which will use the DOM camera API to open camera and have an end to end communication with user",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "WeatherAPI",
+          name: "WebRTC",
           color: "green-text-gradient",
         },
         {
@@ -252,22 +253,22 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: weather,
+      image: video,
       source_code_link: "https://github.com/Heisen47/react-weather-app",
     },
-    {
-      name: "React Memory Card Game",
-      description:
-        "This will be a fun memory card game based on react components which will have a scorecard ,count the score until game ends",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: memoryCard,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "React Memory Card Game",
+    //   description:
+    //     "This will be a fun memory card game based on react components which will have a scorecard ,count the score until game ends",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //   ],
+    //   image: memoryCard,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   const PlanToWorkOnProjects = [
     {

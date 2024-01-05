@@ -40,7 +40,7 @@ const About = () => {
       <motion.p
       variants={fadeIn("" , "", 0.1,1)}
       className="mt-4 text-secondary text=[17px] max-w-3xl leading-[30px]">
-        Hello Internet people , I am a software engineer with a knack of exploring new technologies and honing my skills in it . I am quick and curious learner who has collaborated closely with clients over the years to develop and provide maintainable codes . I have experience of 3 years in the industry and worked closely with technologies such as React , Node.js , SQL , IFS , ETL(informtica) , AWS . I am currently learning JAVA springboot for building REST APIs to be a good fullstack developer.
+        Hello Internet people , I am a software engineer with a knack of exploring new technologies and honing my skills in it . I am curious person and a quick learner who has collaborated closely with clients over the years to develop and provide maintainable codes . I have experience of 3 years in the industry and worked closely with technologies such as React , Node.js , HTML , CSS , Git , Github , Bootstrap , SQL , IFS , ETL(informatica) , AWS . 
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

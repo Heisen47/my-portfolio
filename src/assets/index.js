@@ -28,9 +28,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import ticTacToe from "./ticTacToe.png"
+
 import newsApp from "./newsApp.png"
-import spotify from './spotify.png'
+import video from "./video.jpg"
+import chatapp from './chatapp.png'
+import portfolio from './portfolio.png'
 import weather from './weather.png'
 import memoryCard from './memoryCard.png'
 
@@ -62,9 +64,10 @@ export {
   carrent,
   jobit,
   tripguide,
-  ticTacToe,
+  portfolio,
   newsApp,
-  spotify,
+  chatapp,
+  video,
   weather,
   memoryCard
 };
